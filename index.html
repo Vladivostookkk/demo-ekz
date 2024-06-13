@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+         
+    <title>Магазин Авоська</title> 
+</head>
+<body>
+    
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Вход</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" id="login-email" placeholder="Введите свой e-mail" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="login-pass" class="password" placeholder="Введите пароль" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Запомнить меня</label>
+                        </div>
+                        
+                        <a href="#" class="text">Забыли пароль?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" id="login-button" value="Вход">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Вы еще не зарегистрированы?
+                        <a href="#" class="text signup-link">Создать аккаунт?</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Регистрация</span>
+
+                <form action="#">
+                      <div class="input-field">
+                        <input type="text" id="register-lastname" placeholder="Фамилия" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="register-firstname" placeholder="Имя" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="register-thirdname" placeholder="Отчество" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="register-email" placeholder="Почта" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="tel" id="register-phone" placeholder="Телефон" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="register-pass" class="password" placeholder="Пароль" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="register-repeat-pass" class="password" placeholder="Повторите пароль" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">Запомнить меня</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field button">
+                        <input id="signup-button" type="button" value="Зарегистрироваться">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Есть аккаунт?
+                        <a href="#" class="text login-link">Войти в аккаунт</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <script src="script.js"></script> 
+     <script src="registation.js"></script> 
+     <script src="login.js"></script> 
+</body>
+</html>
